@@ -7,7 +7,7 @@
     </li>
 @endsection
 @section('content')
-    <div class="container-fluid">
+    <div class="container">
         @if(session('success'))
             <span class="alert alert-success d-flex justify-content-center p-2">{{ session('success') }}</span>
         @endif
